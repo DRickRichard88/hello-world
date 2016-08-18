@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	font-family: 'Old Standard TT', serif;
+}
+ 
+.header {
+	height: 100px;
+	width: 100%;
+}
+ 
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid red;
+	height: inherit;
+}
+
+.img-logo {
+	margin: 25px 0 0 50px;
+}
+
+.menu {
+	float: right;
+	margin: 0px 50px;
+}
+
+.menu-list {
+	display: inline-block;
+	margin-left: 80px;
+}
+
+.menu-link {
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	line-height: 100px;
+}
+.menu-link:hover {
+	color: grey;
+}
+     		
+section {
+	height: 800px;
+	width: 100%;
+}
