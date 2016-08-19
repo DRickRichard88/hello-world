@@ -34,25 +34,27 @@ html, body {
   display: inline-block;
   margin-left: 80px;
 }
-
+    
 .menu-link {
   font-size: 18px;
   text-decoration: none;
   color: black;
   line-height: 100px;
 }
+
 .menu-link:hover {
   color: #565657;
-  cursor: wait;
+  cursor: pointer;
 }
 
 .section-one {
-  height: 14	00px;
+  height: 1200px;
   width: 100%;
 }
 
 .img-section-one {
-  margin-left: 50px;
+  margin: 0 auto;
+  display: block;
   width: 1100px;
 }
 
@@ -60,18 +62,18 @@ html, body {
   margin: 100px 100px 80px;
 }
 
-.title {
+.section-title {
   font-family: arial;
   color: #757575;
-  margin-top: 20px;
+  margin: 0 0 20px;
 }
 
-.title1 {
+.article-title {
   margin-top: 20px;
   font-size: 32px ;
 }
 
-.title2 {
+.article {
   margin: 20px 0 40px;
 }
 
