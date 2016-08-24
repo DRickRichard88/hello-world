@@ -6,22 +6,23 @@
     <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
     <title>Blog</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="js/app.js" type="text/javascript"></script>
 </head>
 <body>
   <header class="header">
     <div class="container">
       <img class="img-logo" src="./photos/logo.png" alt="logo" />
       <ul class="menu">
-        <li class="menu-list"><a href class="menu-link">LIFESTYLE</a></li>
-        <li class="menu-list"><a href class="menu-link">PHOTOGRAPHY</a></li>
-        <li class="menu-list"><a href class="menu-link">MUSIC</a></li>
-        <li class="menu-list"><a href class="menu-link">TRAVEL</a></li>
+        <li class="menu-list"><a onclick="myFunction()" class="menu-link">LIFESTYLE</a></li>
+        <li class="menu-list"><a onclick="myFunctionOne()" class="menu-link">PHOTOGRAPHY</a></li>
+        <li class="menu-list"><a onclick="myFunctionTwo()" class="menu-link">MUSIC</a></li>
+        <li class="menu-list"><a onclick="myFunctionThree()" class="menu-link">TRAVEL</a></li>
       </ul>
     </div>
   </header>
   <section class="section-one">
     <div class="container">
-      <img class="img-section-one" src="./photos/minimo1.png" alt="minimo1  " />
+      <img id="img-section-one" src="./photos/minimo1.png" alt="minimo1 " />
       <div class="content-s-one">
         <div class="article">
           <h3 class="section-title">PHOTODIARY</h3>
@@ -36,7 +37,7 @@
   </section>
   <section>
     <div class="container">
-    </div>  
+    </div>
   </section>
   <footer>
     <div class="container">
